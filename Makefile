@@ -8,7 +8,7 @@ dist/index.html: src/index.html
 	cp -p src/index.html dist/
 
 dist/js/main.js: src/js/main.js
-	#./node_modules/.bin/uglifyjs src/js/main.js -cm -o dist/js/main.js --source-map "root='file:///C:/Users/yuki/repositories/github/laboradian/uglifyjs-test-001',url='main.js.map'"
+	#./node_modules/.bin/uglifyjs src/js/main.js -cm -o dist/js/main.js --source-map "root='file:///C:/Users/foo/uglifyjs-test-001',url='main.js.map'"
 	#./node_modules/.bin/uglifyjs src/js/main.js -cm -o dist/js/main.js --source-map "root='../..',url='main.js.map'"
 	#./node_modules/.bin/uglifyjs src/js/main.js -cm -o dist/js/main.js --source-map "url='main.js.map'"
 	#./node_modules/.bin/uglifyjs src/js/main.js -cm -o dist/js/main.js --source-map "root='',url='main.js.map'"
@@ -16,7 +16,7 @@ dist/js/main.js: src/js/main.js
 	./node_modules/.bin/uglifyjs src/js/main.js -cm -o dist/js/main.js --source-map "root='../../',url='main.js.map',filename='main.js'"
 
 dist/js/utils.js: src/js/utils.js
-	#./node_modules/.bin/uglifyjs src/js/utils.js -cm -o dist/js/utils.js --source-map "root='file:///C:/Users/yuki/repositories/github/laboradian/uglifyjs-test-001',url='utils.js.map'"
+	#./node_modules/.bin/uglifyjs src/js/utils.js -cm -o dist/js/utils.js --source-map "root='file:///C:/Users/foo/uglifyjs-test-001',url='utils.js.map'"
 	#./node_modules/.bin/uglifyjs src/js/utils.js -cm -o dist/js/utils.js --source-map "root='../..',url='utils.js.map'"
 	#./node_modules/.bin/uglifyjs src/js/utils.js -cm -o dist/js/utils.js --source-map "url='utils.js.map'"
 	#./node_modules/.bin/uglifyjs src/js/utils.js -cm -o dist/js/utils.js --source-map "root='',url='utils.js.map'"
